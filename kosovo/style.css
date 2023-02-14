@@ -1,0 +1,90 @@
+.disp-a {
+  display: auto;
+}
+.disp-b {
+  display: block;
+}
+.disp-g {
+  display: grid;
+}
+.disp-ig {
+  display: inline grid;
+}
+.ctr-txt {
+  text-align: center;
+}
+.font-sans {
+  font-family: sans-serif;
+  font-size: 22px;
+}
+.neighbor1 {
+  color: red;
+  background-color: gray;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 10px;
+}
+.neighbor2 {
+  color: aqua;
+  background-color: blue;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 10px;
+}
+
+.neighbor3 {
+  color: green;
+  background-color: maroon;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 10px;
+}
+.p1 {
+  font-family: verdana;
+}
+
+.p2 {
+  font-family: times new roman;
+  font-size: 30px;
+  color: orange;
+}
+
+.p3 {
+  font-family: sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+.img1 {
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 10px purple;
+}
+.chapter1 {
+  display: inline-grid;
+  width: 110px;
+  height: 110px; 
+  border: solid 5px aqua;
+  color: aqua;
+  margin: 40px;
+  background-color: green; 
+  
+}
+
+@keyframes animate1 {
+  25% { width: 27.5px;}
+  50% { width: 55px;}
+  75% {width: 82px;}
+  100% {width: 110px;}
+}
+
+.custom-border {
+  border: dotted 6px purple;
+  color: blue;
+  width: 0px;
+  height: 110px;
+}
+.custom-border:hover {
+  animation-name: animate1;
+  animation-duration: 2s;
+{
