@@ -1,0 +1,23 @@
+.chapter5 {
+  display: inline-grid;
+  width: 150px;
+  height: 150px; 
+  border: solid 3px black;
+  color: aqua;
+  margin: 40px;
+  background-color: rgb(125,25,23);   
+}
+
+.short1 {
+  display: block;
+  width: 250px;
+  height: 150px; 
+  border: solid 3px black;
+  color: aqua;
+  background-color: rgb(125,25,23);
+  margin: auto;
+}
+
+body {
+  text-align: center;
+}
