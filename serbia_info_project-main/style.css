@@ -1,0 +1,149 @@
+.disp-a {
+  display: auto;
+}
+.disp-b {
+  display: block;
+}
+.disp-g {
+  display: grid;
+}
+.disp-ig {
+  display: inline grid;
+}
+.ctr-txt {
+  text-align: center;
+}
+.lft-txt {
+  text-align: left;
+}
+.rgt-txt {
+  text-align: right;
+}
+.font-sans {
+  font-family: sans-serif;
+  font-size: 25px;
+}
+.neighbor1 {
+  color: red;
+  background-color: gray;
+  border-style: solid 5px red;
+  border-radius: 10px;
+}
+.neighbor2 {
+  background-color: blue;
+  border-style: solid 5px aqua;
+  border-radius: 10px;
+}
+
+.neighbor3 {
+  color: green;
+  background-color: maroon;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 10px;
+}
+
+h1 {
+  margin-top: -10px;
+  color: linear-gradient(0%,gold,red);
+}
+.p2 {
+  font-family: times new roman;
+  font-size: 30px;
+  color: orange;
+}
+
+.p3 {
+  font-family: sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.img1 {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 10px purple;
+}
+
+.img2 {
+  width: 250px;
+  margin-left: 150px;
+}
+
+.chapter1 {
+  border: solid 5px rgb(55,55,255);
+  color: rgb(155,255,155);
+  background-color: rgb(125,25,23);   
+}
+
+.block1 { 
+  border: solid 5px rgb(0,255,0);
+  color: rgb(0,0,0);
+  background-color: rgb(125,25,23);
+}
+
+.block2 {
+  border: solid 5px rgb(0,255,255);
+  color: rgb(155,255,155);
+  background-color: rgb(125,25,23);
+}
+
+.chapter1,.block1,.block2 {
+  margin: 40px;
+  width: 170px;
+  height: 170px;
+  display: inline-grid;
+}
+
+h2 {
+  font-family: segoe print;
+  font-size: 30px;
+  margin-top: -30px;
+}
+
+.info-1 {
+  animation-name: move-to-the-right,fade_in_1;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  border: 5px solid red;
+  background-color: rgb(36,16,212); 
+}
+@keyframes move-to-the-right {
+  0% {
+   margin-left: -650px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+@keyframes fade_in_1 {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 50%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+.info-1,.info-2 {
+  width: 400px;
+}
+#info-2 {
+  border: 5px solid aqua;
+  margin-left: 500px;
+  background-color: rgb(8,48,74);
+  color: rgb(101,132,154);
+  margin-left: auto;
+  padding-top: -145px;
+}
+body {
+  background: linear-gradient(
+	15deg,
+	purple,
+	yellow,
+  	red
+  ) !important;
+}
