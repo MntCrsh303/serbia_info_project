@@ -1,0 +1,69 @@
+.chapter5 {
+  display: inline-grid;
+  width: 150px;
+  height: 150px; 
+  border: solid 3px black;
+  color: aqua;
+  margin: 40px;
+  background-color: rgb(125,25,23);   
+}
+
+.short1 {
+  display: block;
+  width: 250px;
+  height: 150px; 
+  border: solid 3px black;
+  color: aqua;
+  background-color: rgb(125,25,23);
+  margin: auto;
+}
+
+body {
+  text-align: center;
+}
+.text-2 {
+  font-size: 30px;
+}
+.box-1 {
+  background-color: rgb(0,0,123);
+  color: gray;
+  font-size: 25px;
+}
+.box-1:hover {
+  color: silver;
+  animation-name: temp-name-1;
+  animation-duration: 1s;
+}
+
+@keyframes temp-name-1 {
+  40% {
+    opacity: 50%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+el {
+  color: yellow;
+  font-size: 25px;
+  letter-spacing: -1px;
+}
+.newline1 {
+  text-transform: uppercase;
+  font-family: cursive;
+}
+
+.trans-1 {
+  font-size: 25px;
+  background-color: rgb(15,85,76);
+  width: 75%;
+}
+
+.topic1 {
+  font-size: 27px;
+}
+.topic3 {
+  font-size: 25px;
+  border: solid 5px black;
+}
